@@ -533,6 +533,41 @@ Registration is with GoDaddy using its existing DomainControl nameservers.
 The user elected to add the DNS records personally; the assistant configures
 the application and GitHub Pages, then checks DNS and HTTPS readiness.
 
+## Release 2.6: Second monthly episode
+
+The user explicitly approved publishing Episode 2 on 21 September 2026, after
+the scripts, the US$25 generation budget and the saved recordings had each been
+approved and verified separately. Publish "Birth, Family and Early Childhood":
+English at 460.968 seconds (7:41) and Urdu at 535.656 seconds (8:56).
+
+Unlike Episode 1, both editions are complete. They narrate the same eight
+sections and the same supported facts, and neither omits a section. Neither
+edition reaches the earlier 15-minute planning target; neither is padded,
+re-encoded or time-stretched. During generation one English passage was refused
+three times by the provider content filter and was recovered by re-splitting it
+into smaller synthesis units, so no approved wording was cut or rewritten.
+
+Reuse the two approved MP3s byte for byte. Their SHA-256 identities, provider
+transcripts, section timeline and approved script text are checked against the
+generation packet by the test suite. Do not publish intermediate clips, private
+receipts, credentials or budget ledgers.
+
+The public page carries matching bilingual transcripts, eight chapter markers in
+each language and per-section source links. Evidential status stays visible: the
+Monday statement, the nursing relationship and the childhood event are
+transmitted reports; the birth setting, the parents' names and the traditional
+ages of six and eight are historical framing summarized from a reference work
+and are labelled as such. The monthly source allowlist therefore admits
+`www.britannica.com` for framing alongside `sunnah.com` and `quran.com`;
+narration sources remain on Sunnah.com and Quran.com.
+
+Episode 1 stays published and unaltered — its assets, manifest entries, scripts
+and narration counts are unchanged, and its live SHA-256 identities are asserted
+by the tests. The NEW badge moves to Episode 2 for 30 days from publication.
+
+No additional synthesis, Azure spending, model deployment, or recurring
+generation/publication authorization is granted by this release.
+
 ## Release 2.5.1: First monthly episode and NEW badge
 
 The user explicitly approved publishing both saved editions and a 30-day NEW

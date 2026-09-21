@@ -164,3 +164,32 @@ test('published long recordings retain listening positions beyond ten minutes wi
     positions: [{ entryId: legacyTrack.entryId, language: legacyTrack.language, cacheKey: legacyTrack.cacheKey,
       sha256: legacyTrack.sha256, time: 650, completed: false }] }, legacyCatalog).ok, false)
 })
+
+test('the second episode publishes complete parallel editions without disturbing the first release', () => {
+  const [latest, first] = monthlyCatalog.episodes
+  assert.equal(latest.id, 'monthly-life-002')
+  assert.equal(first.id, 'monthly-life-001')
+  assert.equal(newMonthlyEpisodeId(monthlyCatalog.episodes, Date.parse('2026-09-21T00:00:00Z')), 'monthly-life-002')
+  assert.equal(monthlyCatalog.tracks.get('story-monthly-life-001-recording:en')!.sha256,
+    '32d3a0244c600c8b45fdc5439093acef6906b20ba048c2acd5a835e1efbeb6bd')
+  assert.equal(monthlyCatalog.tracks.get('story-monthly-life-001-recording:ur')!.sha256,
+    'dae4328ab0c068add013d9dff823473a07146b45de278ec5728e1afedcf15a08')
+  const chapter = latest.chapters[0]
+  assert.equal(chapter.sections!.en.length, chapter.sections!.ur.length, 'both editions narrate the same sections')
+  assert.equal(latest.editionLabels!.en.en, 'English · full edition')
+  assert.equal(latest.editionLabels!.ur.en, 'Urdu · full edition')
+  for (const language of ['en', 'ur'] as const) {
+    const track = monthlyCatalog.tracks.get(`${chapter.id}:${language}`)!
+    assert.ok(track.durationSeconds > 0 && track.durationSeconds < 900)
+    assert.ok(chapter.sections![language].every((section) => section.startSeconds < track.durationSeconds))
+  }
+  const framing = latest.sources.filter((source) => new URL(source.url).origin === 'https://www.britannica.com')
+  assert.equal(framing.length, 1, 'reference framing is cited explicitly and separately')
+  assert.ok(framing[0].reference.includes('not a graded hadith'))
+  assert.ok(latest.sources.filter((source) => source.id !== framing[0].id)
+    .every((source) => ['https://sunnah.com', 'https://quran.com'].includes(new URL(source.url).origin)))
+  const { series, audio } = monthlyFixture()
+  const lookalike = structuredClone(series)
+  lookalike.episodes[0].sources[0].url = 'https://www.britannica.com.evil.invalid/'
+  assert.throws(() => createMonthlyCatalog(lookalike, audio))
+})

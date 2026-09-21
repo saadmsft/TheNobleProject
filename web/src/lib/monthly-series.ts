@@ -5,12 +5,16 @@ import { localizedSchema } from './schema.ts'
 import type { Language } from './schema.ts'
 import { monthlyAudioManifestSchema, monthlyChapterSchema } from './story-audio.ts'
 
+// Narration sources stay on sunnah.com and quran.com. www.britannica.com is allowed only for the
+// historical framing an episode attributes to a reference work rather than to a graded narration.
+const sourceOrigins = ['https://sunnah.com', 'https://quran.com', 'https://www.britannica.com']
+
 const sourceSchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
   reference: z.string().trim().min(1),
   url: z.url().refine((value) => {
     const url = new URL(value)
-    return ['https://sunnah.com', 'https://quran.com'].includes(url.origin) && !url.username && !url.password
+    return sourceOrigins.includes(url.origin) && !url.username && !url.password
   }),
   note: localizedSchema,
   languages: z.array(z.enum(['en', 'ur'])).min(1).optional(),

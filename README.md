@@ -15,6 +15,9 @@ historical voice reconstructions, or impersonation.**
   series. Episode 1, **Before His Birth: Makkah and the Sacred House**, is published
   in abridged English (9:58, nine sections) and full Urdu (11:47, ten sections).
   The editions differ: English omits the People of the Elephant section.
+  Episode 2, **Birth, Family and Early Childhood**, is published complete in both
+  languages — English 7:41 and Urdu 8:56, eight sections each, with the same
+  supported facts and no omitted section.
   Existing saved recordings are preserved byte-for-byte. Language-specific
   chapter markers, transcripts, source notes and long listening resume use the
   shared player. A **NEW / نیا** badge marks the latest release for 30 days from
@@ -143,7 +146,9 @@ qualifications, ordered chapters and a Sunnah.com source companion. Each
 chapter has a `story-monthly-…` identity, its parent `monthlyEpisodeId`, `kind:
 "story"`, shelf `life`, topic `all`, bilingual original text and source IDs
 from that episode's companion. Approved Qur'anic context may use Quran.com
-alongside Sunnah.com; source language scopes distinguish different editions.
+alongside Sunnah.com, and `www.britannica.com` is admitted only for historical
+framing an episode attributes to a reference work rather than to a graded
+narration; source language scopes distinguish different editions.
 Optional per-language section markers provide chapter seeking and transcripts
 within a continuous file. These are editorial stories, not canonical
 hadith records or additions to the original short-story collections.

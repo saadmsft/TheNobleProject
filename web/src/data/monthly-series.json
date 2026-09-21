@@ -327,6 +327,270 @@
           }
         }
       ]
+    },
+    {
+      "id": "monthly-life-002",
+      "status": "published",
+      "publishedOn": "2026-09-21",
+      "title": {
+        "en": "Birth, Family and Early Childhood",
+        "ur": "ولادت، خاندان اور ابتدائی بچپن"
+      },
+      "summary": {
+        "en": "The birth named in a report about Monday, the nursing relationship with Thuwaybah, a childhood event transmitted from Anas ibn Malik, and the traditional family sequence from Abd al-Muttalib’s care to Abu Talib’s responsibility.",
+        "ur": "پیر کے دن سے متعلق روایت میں بیان کردہ ولادت، ثویبہ سے رضاعت کا رشتہ، حضرت انس بن مالک رضی اللہ عنہ سے منقول بچپن کا واقعہ، اور عبدالمطلب کی سرپرستی سے ابو طالب کی ذمہ داری تک روایتی خاندانی ترتیب۔"
+      },
+      "editorialNote": {
+        "en": "Both editions are complete: English (7:41) and Urdu (8:56) cover the same eight sections and the same supported facts, with no section omitted. The evidential status is mixed and stays visible: the Monday statement, the nursing relationship and the childhood event are transmitted reports, while the birth setting, the parents’ names and the ages of six and eight are traditional biography summarized from a reference work. No birth date, birth signs, imagined dialogue or private feelings are supplied.",
+        "ur": "دونوں ایڈیشن مکمل ہیں: انگریزی (7:41) اور اردو (8:56) میں وہی آٹھ حصے اور وہی ثابت شدہ حقائق شامل ہیں، کوئی حصہ حذف نہیں کیا گیا۔ شواہد کی حیثیت مختلف ہے اور واضح رکھی گئی ہے: پیر کے دن کا بیان، رضاعت کا رشتہ اور بچپن کا واقعہ منقول روایات ہیں، جبکہ جائے ولادت، والدین کے نام اور چھ و آٹھ برس کی عمریں ایک حوالہ جاتی کتاب سے ماخوذ روایتی سیرت ہیں۔ ولادت کی تاریخ، ولادت کی نشانیاں، فرضی مکالمہ یا ذاتی جذبات شامل نہیں کیے گئے۔"
+      },
+      "editionLabels": {
+        "en": {
+          "en": "English · full edition",
+          "ur": "انگریزی · مکمل ایڈیشن"
+        },
+        "ur": {
+          "en": "Urdu · full edition",
+          "ur": "اردو · مکمل ایڈیشن"
+        }
+      },
+      "chapters": [
+        {
+          "kind": "story",
+          "id": "story-monthly-life-002-recording",
+          "monthlyEpisodeId": "monthly-life-002",
+          "shelf": "life",
+          "topic": "all",
+          "title": {
+            "en": "Episode recording",
+            "ur": "قسط کی ریکارڈنگ"
+          },
+          "text": {
+            "en": "Welcome to The Noble Life. Our second episode begins with the birth and early childhood of Prophet Muhammad صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ.\n\nWe have already considered the earlier history of the Sacred House. Now our attention moves to a child, the family around him, and the people whose care belongs to the opening years of his life.\n\nThe traditional biography, as summarized by Encyclopaedia Britannica, places his birth in Makkah. It names his father as Abdullah and his mother as Aminah, and tells of his father's death before he was born. These details are historical framing from that biographical account, not the words of the hadith we will hear next.\n\nWe will not reconstruct the birth itself. There is no imagined room, no invented conversation between his parents, and no catalogue of unverified signs. Our beginning stays with the family relationships and with a brief statement preserved from the Prophet himself.\n\nAbu Qatadah al-Ansari reports that the Prophet was asked about fasting on Monday. In his reply, he associated that day with his birth and with revelation being sent to him.\n\nIt is a short answer to a later question, yet it gives us a firm point for this part of the story: Monday is the day of birth named in the report. It does not give a date within a month or a Gregorian year.\n\nThe mention of revelation in the same answer belongs to the Prophet's later life. It does not place revelation at his birth, and we will leave its beginning for the episode devoted to it.\n\nFor now, the child comes into view without a staged birth scene. From that point, the sources take us towards those who fed and cared for him, and towards relationships he would still acknowledge many years later.\n\nOne of those names is Thuwaybah. In a report transmitted by Umm Habibah and preserved in Sahih al-Bukhari, the Prophet explains that Thuwaybah had nursed both him and Abu Salamah.\n\nThe statement occurs during a much later discussion of family relationships and marriage. Its immediate setting is not a nursery. But within that later discussion, a relationship formed through nursing is explicitly remembered.\n\nThe report identifies Abu Salamah as a brother through nursing. That is not a claim that he shared the same biological parents with the Prophet. Keeping that distinction allows us to understand what kind of family connection is being described.\n\nWe do not learn from this statement exactly how long Thuwaybah nursed him, or the day on which her care began. What we do have is her name and the Prophet's own acknowledgement of the relationship.\n\nFor a moment, the later conversation opens a window onto infancy. A woman who cared for him is not left anonymous in this report; her name remains connected with the relationship he explains.\n\nA different account, transmitted by Anas ibn Malik and preserved in Sahih Muslim, describes the Prophet playing with other boys when Jibril comes to him.\n\nThe report recounts the opening of his chest, the removal of his heart and a clot from it, and its washing with Zamzam water in a golden vessel before it is restored. It attributes to Jibril an explanation concerning Satan's portion.\n\nWe present this as the extraordinary event described in the narration. We neither reduce it to an ordinary medical procedure nor add details about an angel's appearance, sounds, instruments or a child's unreported thoughts.\n\nThe account begins among children at play. It then follows the other boys as they run to the woman caring for him. Their report is that Muhammad has been killed. Those are the boys' words within the narrative, not the outcome of the event.\n\nThe people who come towards him find his colour changed. The narrative has brought us back from the boys' alarming message to the child himself.\n\nAt this point, the wording of Anas's account makes an important distinction. It refers to his mother and explains that it means his nursing carer. We therefore do not substitute Aminah for that woman in this scene.\n\nThe selected report does not give the carer's personal name. It also gives no exact age or calendar date for the event. Those details cannot simply be supplied because a familiar version of the story contains them.\n\nAnas then adds his own observation: he used to see the mark on the Prophet's chest. That is the observation he personally describes. We do not turn it into a claim that Anas stood among the boys at the earlier event.\n\nTwo kinds of testimony therefore remain together: the account of what happened, and the narrator's later observation. The distinction helps us stay close to the report while still following its story.\n\nTo follow the sequence of family care, we return to the traditional biography. The Britannica summary places Aminah's death when Muhammad was six and the death of his paternal grandfather, Abd al-Muttalib, when he was eight.\n\nThese ages come from that summary of the biographical tradition. They are not supplied by the Monday report or by Anas's account of the childhood event.\n\nThe biography places the child in his grandfather's care. With his mother's death, and then his grandfather's, its account records more than one loss in those early years.\n\nWe do not add a final conversation, a child's private grief, or a journey itinerary to make the losses feel real. Nor do we tell listeners how a particular household must have responded. The relationships, the deaths and the succession of care are the historical framework available here.\n\nThe grandfather's part in the account now ends. Responsibility for the child passes to another member of the family.\n\nThe same biographical summary identifies Abu Talib, the Prophet's uncle, as the one who then assumes responsibility for him.\n\nOur attention remains on that act of family care. We are not yet moving into accounts of work, commercial journeys or the later years of the mission. Those subjects have their own place in this series.\n\nThe family names now form a simple sequence in the account: Abdullah and Aminah, the grandfather Abd al-Muttalib, and the uncle Abu Talib. The nursing relationship remembered through Thuwaybah is a different kind of connection, and the unnamed carer in Anas's report is not automatically identified with her.\n\nKeeping these relationships distinct matters. It allows a child and those around him to remain people in a carefully sourced account, rather than characters whose separate stories have been blended into one continuous scene.\n\nThe Qur'an offers a brief, direct reminder of this earlier vulnerability. In Surah ad-Duha, the Prophet is reminded of his orphanhood and of shelter provided to him.\n\nThat verse does not name the guardians or give the ages we have just mentioned. We take the reminder from the Qur'an and the family sequence from the biographical account, without treating one as though it contained all the details of the other.\n\nThe reminder looks back. It is not a verse we place in the mouth of the child or present as having been revealed during his childhood.\n\nAt the end of this episode, it returns our attention to care. We began with birth and parents; we encountered a remembered nursing relationship, an account involving children and their carer, and a succession of family responsibility.\n\nHere we stop. Growing up, work, responsibility and trust will be the subject of the next episode. This has been The Noble Life: Birth, Family and Early Childhood.",
+            "ur": "دی نوبل لائف میں خوش آمدید۔ دوسری قسط میں ہم نبی کریم محمد صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ کی ولادت اور ابتدائی بچپن کی طرف آتے ہیں۔\n\nبیت اللہ کا قدیم پس منظر ہم پہلے دیکھ چکے ہیں۔ اب توجہ ایک بچے، اس کے خاندان اور ان لوگوں کی طرف ہے جن کی نگہداشت اس کی زندگی کے ابتدائی برسوں سے تعلق رکھتی ہے۔\n\nروایتی سیرت کے اس خلاصے میں جو انسائیکلوپیڈیا بریٹانیکا پیش کرتا ہے، ولادت کا مقام مکہ، والد کا نام عبداللہ اور والدہ کا نام آمنہ ہے۔ اسی بیان کے مطابق والد کا انتقال ولادت سے پہلے ہوگیا تھا۔ یہ سیرت کے تاریخی بیان سے لیا گیا پس منظر ہے، آگے آنے والی حدیث کے الفاظ نہیں۔\n\nہم خود ولادت کا منظر نہیں بنائیں گے۔ نہ کسی کمرے کی فرضی تفصیل ہوگی، نہ والدین کا گھڑا ہوا مکالمہ، نہ غیر ثابت علامات کی فہرست۔ آغاز خاندان کے رشتوں اور خود نبی کریم کے ایک مختصر ارشاد سے ہوگا۔\n\nحضرت ابو قتادہ انصاری رضی اللہ عنہ بیان کرتے ہیں کہ نبی کریم سے پیر کے روزے کے بارے میں پوچھا گیا۔ جواب میں آپ نے اس دن کو اپنی ولادت اور اپنے اوپر وحی نازل ہونے سے متعلق فرمایا۔\n\nیہ بعد میں پوچھے گئے سوال کا مختصر جواب ہے، مگر ہمارے موضوع کے لیے ایک واضح بات دیتا ہے: روایت میں ولادت کے دن کے طور پر پیر کا ذکر ہے۔ مہینے کی متعین تاریخ یا عیسوی سال نہیں دیا گیا۔\n\nاسی جواب میں وحی کا ذکر آپ کی بعد کی زندگی سے متعلق ہے۔ اس کا مطلب یہ نہیں کہ وحی ولادت کے وقت آئی تھی۔ آغازِ وحی کو ہم اس کے لیے مقرر قسط میں دیکھیں گے۔\n\nفی الحال ولادت کا گھڑا ہوا منظر بنائے بغیر ایک بچے کا ذکر سامنے آتا ہے۔ یہاں سے ماخذ ہمیں ان لوگوں کی طرف لے جاتے ہیں جنہوں نے دودھ پلایا اور دیکھ بھال کی، اور ان رشتوں کی طرف جنہیں آپ نے بہت بعد میں بھی یاد رکھا۔\n\nان ناموں میں ایک نام ثویبہ کا ہے۔ حضرت ام حبیبہ رضی اللہ عنہا سے منقول، صحیح بخاری میں محفوظ روایت میں نبی کریم بتاتے ہیں کہ ثویبہ نے آپ کو اور ابو سلمہ کو دودھ پلایا تھا۔\n\nیہ بیان بہت بعد میں خاندان کے رشتوں اور نکاح کے متعلق گفتگو کے دوران آتا ہے۔ اس کا فوری سیاق شیر خوار بچے کی پرورش کا منظر نہیں۔ تاہم اسی گفتگو میں دودھ پلانے سے قائم ہونے والا رشتہ واضح طور پر محفوظ ہے۔\n\nروایت میں ابو سلمہ کے لیے رضاعی بھائی کی نسبت آتی ہے۔ اس کا مطلب یہ نہیں کہ ان کے اور نبی کریم کے حقیقی والدین ایک تھے۔ اس فرق کے ساتھ سمجھ آتا ہے کہ یہاں کس نوعیت کے خاندانی تعلق کا ذکر ہے۔\n\nاس بیان سے ثویبہ کے دودھ پلانے کی پوری مدت یا اس کے آغاز کا دن معلوم نہیں ہوتا۔ ہمارے پاس ان کا نام اور اس رشتے کی نبی کریم کی اپنی تصدیق ہے۔\n\nبعد کی گفتگو سے یوں شیر خوارگی کی طرف ایک مختصر دریچہ کھلتا ہے۔ دیکھ بھال کرنے والی خاتون اس روایت میں بے نام نہیں رہتیں؛ ان کا نام اس تعلق کے ساتھ محفوظ ہے جس کی آپ وضاحت فرماتے ہیں۔\n\nحضرت انس بن مالک رضی اللہ عنہ سے منقول، صحیح مسلم میں محفوظ ایک الگ روایت میں نبی کریم دوسرے لڑکوں کے ساتھ کھیل رہے ہیں کہ حضرت جبریل علیہ السلام آتے ہیں۔\n\nروایت سینہ کھولنے، دل نکالنے، اس میں سے ایک لوتھڑا نکالنے، سونے کے برتن میں زمزم کے پانی سے دھونے اور اسے واپس رکھنے کا ذکر کرتی ہے۔ حضرت جبریل کی طرف شیطان کے حصے سے متعلق وضاحت بھی منسوب ہے۔\n\nہم اسے روایت میں بیان ہونے والے غیر معمولی واقعے کے طور پر پیش کرتے ہیں۔ نہ اسے عام طبی عمل میں بدلتے ہیں، نہ فرشتے کے حلیے، آوازوں، آلات یا بچے کے غیر منقول خیالات کی تفصیلات شامل کرتے ہیں۔\n\nبیان کا آغاز کھیلتے بچوں کے درمیان ہوتا ہے۔ پھر دوسرے لڑکے دوڑ کر دیکھ بھال کرنے والی خاتون کے پاس جاتے ہیں۔ وہ خبر دیتے ہیں کہ محمد کو قتل کردیا گیا ہے۔ یہ واقعے کے اندر لڑکوں کی کہی ہوئی بات ہے، واقعے کا انجام نہیں۔\n\nجو لوگ آپ کی طرف آتے ہیں، وہ رنگ بدلا ہوا پاتے ہیں۔ یوں لڑکوں کی گھبرا دینے والی خبر کے بعد روایت ہمیں دوبارہ خود بچے تک پہنچاتی ہے۔\n\nاس مقام پر حضرت انس کی روایت کے الفاظ ایک اہم فرق واضح کرتے ہیں۔ ماں کا لفظ آتا ہے، پھر بتایا جاتا ہے کہ مراد دودھ پلانے والی خاتون ہے۔ اس لیے اس منظر میں ہم ان کی جگہ حضرت آمنہ کا نام نہیں رکھ دیتے۔\n\nمنتخب روایت اس خاتون کا ذاتی نام نہیں بتاتی۔ واقعے کے وقت کی متعین عمر یا تاریخ بھی نہیں دیتی۔ کسی مشہور قصے میں یہ تفصیلات ہونے سے انہیں خود بخود اس روایت کا حصہ نہیں بنایا جاسکتا۔\n\nپھر حضرت انس اپنا مشاہدہ بیان کرتے ہیں کہ وہ نبی کریم کے سینے پر نشان دیکھا کرتے تھے۔ یہ وہ بات ہے جسے انہوں نے خود دیکھا بتایا ہے۔ اس سے یہ دعویٰ نہیں بناتے کہ پہلے واقعے کے وقت وہ انہی لڑکوں کے ساتھ کھڑے تھے۔\n\nاس طرح دو باتیں اپنے مقام پر رہتی ہیں: پیش آنے والے واقعے کی خبر اور راوی کا بعد کا مشاہدہ۔ یہ فرق برقرار رکھتے ہوئے بھی ہم روایت کے بیان کے ساتھ آگے بڑھ سکتے ہیں۔\n\nخاندان کی نگہداشت کی ترتیب سمجھنے کے لیے اب روایتی سیرت کے بیان کی طرف لوٹتے ہیں۔ بریٹانیکا کے خلاصے میں حضرت آمنہ کی وفات کے وقت محمد کی عمر چھ برس، اور دادا عبدالمطلب کی وفات کے وقت آٹھ برس بتائی گئی ہے۔\n\nیہ عمریں سیرت کی روایت کے اس خلاصے سے ہیں۔ نہ پیر کے متعلق حدیث انہیں بتاتی ہے، نہ حضرت انس کے بچپن والے واقعے کا بیان۔\n\nاس سوانحی ترتیب میں بچہ دادا کی سرپرستی میں ہے۔ والدہ کی وفات اور پھر دادا کی وفات کے ساتھ ابتدائی زندگی میں ایک سے زیادہ جدائیوں کا ذکر آتا ہے۔\n\nان کے اثر کو ظاہر کرنے کے لیے ہم آخری گفتگو، بچے کے دل کا غیر منقول غم یا کسی سفر کا راستہ شامل نہیں کرتے۔ یہ بھی نہیں بتاتے کہ گھر کے ہر فرد نے لازماً کیسا ردعمل دیا ہوگا۔ یہاں رشتے، وفاتیں اور نگہداشت کی منتقلی ہی دستیاب تاریخی خاکہ ہیں۔\n\nاب اس بیان میں دادا کا ساتھ ختم ہوتا ہے۔ بچے کی ذمہ داری خاندان کے ایک دوسرے فرد کے پاس آتی ہے۔\n\nاسی سوانحی خلاصے کے مطابق اس کے بعد نبی کریم کے چچا ابو طالب آپ کی ذمہ داری سنبھالتے ہیں۔\n\nہماری توجہ اس خاندانی نگہداشت پر رہتی ہے۔ ابھی کام، تجارتی سفر یا بعد کے دورِ نبوت کے واقعات کی طرف نہیں جارہے۔ ان موضوعات کے لیے اس سلسلے میں الگ جگہ مقرر ہے۔\n\nاب خاندان کے نام ایک سادہ ترتیب میں سامنے ہیں: عبداللہ اور آمنہ، دادا عبدالمطلب اور چچا ابو طالب۔ ثویبہ کے ذریعے یاد کیا گیا رضاعی رشتہ ایک الگ نوعیت کا تعلق ہے۔ حضرت انس کی روایت میں بے نام نگہداشت کرنے والی خاتون کو بھی خود بخود ثویبہ نہیں کہتے۔\n\nرشتوں کو الگ الگ رکھنا اہم ہے۔ اس طرح بچہ اور اس کے گرد موجود لوگ محتاط، حوالہ جاتی بیان میں اپنی جگہ رہتے ہیں۔ ان کی الگ خبروں کو ملا کر ایک مسلسل بنا ہوا منظر نہیں بن جاتا۔\n\nقرآن پہلے کی اس بے سہارگی کی ایک مختصر اور واضح یاد دلاتا ہے۔ سورۂ ضحیٰ میں نبی کریم کو اپنی یتیمی اور ملنے والے ٹھکانے اور سہارے کی طرف متوجہ کیا گیا ہے۔\n\nیہ آیت سرپرستوں کے نام یا ابھی بیان کردہ عمریں نہیں دیتی۔ قرآنی یاد دہانی قرآن سے لیتے ہیں، اور خاندان کی ترتیب سوانحی بیان سے۔ ایک ماخذ کو دوسرے کی تمام تفصیلات کا حامل نہیں سمجھتے۔\n\nیہ ماضی کی طرف توجہ دلانے والی بات ہے۔ آیت کو بچے کی زبان پر نہیں رکھتے، نہ اسے بچپن ہی میں نازل شدہ کہتے ہیں۔\n\nقسط کے آخر میں یہ یاد ہمیں نگہداشت کی طرف واپس لاتی ہے۔ آغاز ولادت اور والدین سے ہوا؛ پھر رضاعت کا محفوظ رشتہ، بچوں اور ان کی نگہداشت کرنے والی کا واقعہ، اور خاندان میں ذمہ داری کی منتقلی سامنے آئی۔\n\nیہاں ہمارا سفر رکتا ہے۔ بڑے ہونے، کام، ذمہ داری اور اعتماد کا ذکر اگلی قسط کا موضوع ہوگا۔ آپ سن رہے تھے دی نوبل لائف: ولادت، خاندان اور ابتدائی بچپن۔"
+          },
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s3",
+            "q1",
+            "h1"
+          ],
+          "sections": {
+            "en": [
+              {
+                "title": "A child and a family",
+                "startSeconds": 0,
+                "text": "Welcome to The Noble Life. Our second episode begins with the birth and early childhood of Prophet Muhammad صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ.\n\nWe have already considered the earlier history of the Sacred House. Now our attention moves to a child, the family around him, and the people whose care belongs to the opening years of his life.\n\nThe traditional biography, as summarized by Encyclopaedia Britannica, places his birth in Makkah. It names his father as Abdullah and his mother as Aminah, and tells of his father's death before he was born. These details are historical framing from that biographical account, not the words of the hadith we will hear next.\n\nWe will not reconstruct the birth itself. There is no imagined room, no invented conversation between his parents, and no catalogue of unverified signs. Our beginning stays with the family relationships and with a brief statement preserved from the Prophet himself.",
+                "sourceIds": [
+                  "h1"
+                ]
+              },
+              {
+                "title": "Monday",
+                "startSeconds": 60.9,
+                "text": "Abu Qatadah al-Ansari reports that the Prophet was asked about fasting on Monday. In his reply, he associated that day with his birth and with revelation being sent to him.\n\nIt is a short answer to a later question, yet it gives us a firm point for this part of the story: Monday is the day of birth named in the report. It does not give a date within a month or a Gregorian year.\n\nThe mention of revelation in the same answer belongs to the Prophet's later life. It does not place revelation at his birth, and we will leave its beginning for the episode devoted to it.\n\nFor now, the child comes into view without a staged birth scene. From that point, the sources take us towards those who fed and cared for him, and towards relationships he would still acknowledge many years later.",
+                "sourceIds": [
+                  "s1"
+                ]
+              },
+              {
+                "title": "A remembered nursing relationship",
+                "startSeconds": 112.8,
+                "text": "One of those names is Thuwaybah. In a report transmitted by Umm Habibah and preserved in Sahih al-Bukhari, the Prophet explains that Thuwaybah had nursed both him and Abu Salamah.\n\nThe statement occurs during a much later discussion of family relationships and marriage. Its immediate setting is not a nursery. But within that later discussion, a relationship formed through nursing is explicitly remembered.\n\nThe report identifies Abu Salamah as a brother through nursing. That is not a claim that he shared the same biological parents with the Prophet. Keeping that distinction allows us to understand what kind of family connection is being described.\n\nWe do not learn from this statement exactly how long Thuwaybah nursed him, or the day on which her care began. What we do have is her name and the Prophet's own acknowledgement of the relationship.\n\nFor a moment, the later conversation opens a window onto infancy. A woman who cared for him is not left anonymous in this report; her name remains connected with the relationship he explains.",
+                "sourceIds": [
+                  "s2"
+                ]
+              },
+              {
+                "title": "Among other children",
+                "startSeconds": 173.4,
+                "text": "A different account, transmitted by Anas ibn Malik and preserved in Sahih Muslim, describes the Prophet playing with other boys when Jibril comes to him.\n\nThe report recounts the opening of his chest, the removal of his heart and a clot from it, and its washing with Zamzam water in a golden vessel before it is restored. It attributes to Jibril an explanation concerning Satan's portion.\n\nWe present this as the extraordinary event described in the narration. We neither reduce it to an ordinary medical procedure nor add details about an angel's appearance, sounds, instruments or a child's unreported thoughts.\n\nThe account begins among children at play. It then follows the other boys as they run to the woman caring for him. Their report is that Muhammad has been killed. Those are the boys' words within the narrative, not the outcome of the event.\n\nThe people who come towards him find his colour changed. The narrative has brought us back from the boys' alarming message to the child himself.",
+                "sourceIds": [
+                  "s3"
+                ]
+              },
+              {
+                "title": "The carer and the witness",
+                "startSeconds": 236.05,
+                "text": "At this point, the wording of Anas's account makes an important distinction. It refers to his mother and explains that it means his nursing carer. We therefore do not substitute Aminah for that woman in this scene.\n\nThe selected report does not give the carer's personal name. It also gives no exact age or calendar date for the event. Those details cannot simply be supplied because a familiar version of the story contains them.\n\nAnas then adds his own observation: he used to see the mark on the Prophet's chest. That is the observation he personally describes. We do not turn it into a claim that Anas stood among the boys at the earlier event.\n\nTwo kinds of testimony therefore remain together: the account of what happened, and the narrator's later observation. The distinction helps us stay close to the report while still following its story.",
+                "sourceIds": [
+                  "s3"
+                ]
+              },
+              {
+                "title": "Loss and the care of a grandfather",
+                "startSeconds": 290.0,
+                "text": "To follow the sequence of family care, we return to the traditional biography. The Britannica summary places Aminah's death when Muhammad was six and the death of his paternal grandfather, Abd al-Muttalib, when he was eight.\n\nThese ages come from that summary of the biographical tradition. They are not supplied by the Monday report or by Anas's account of the childhood event.\n\nThe biography places the child in his grandfather's care. With his mother's death, and then his grandfather's, its account records more than one loss in those early years.\n\nWe do not add a final conversation, a child's private grief, or a journey itinerary to make the losses feel real. Nor do we tell listeners how a particular household must have responded. The relationships, the deaths and the succession of care are the historical framework available here.\n\nThe grandfather's part in the account now ends. Responsibility for the child passes to another member of the family.",
+                "sourceIds": [
+                  "h1"
+                ]
+              },
+              {
+                "title": "The uncle's responsibility",
+                "startSeconds": 349.5,
+                "text": "The same biographical summary identifies Abu Talib, the Prophet's uncle, as the one who then assumes responsibility for him.\n\nOur attention remains on that act of family care. We are not yet moving into accounts of work, commercial journeys or the later years of the mission. Those subjects have their own place in this series.\n\nThe family names now form a simple sequence in the account: Abdullah and Aminah, the grandfather Abd al-Muttalib, and the uncle Abu Talib. The nursing relationship remembered through Thuwaybah is a different kind of connection, and the unnamed carer in Anas's report is not automatically identified with her.\n\nKeeping these relationships distinct matters. It allows a child and those around him to remain people in a carefully sourced account, rather than characters whose separate stories have been blended into one continuous scene.",
+                "sourceIds": [
+                  "h1",
+                  "s2",
+                  "s3"
+                ]
+              },
+              {
+                "title": "A later reminder of shelter",
+                "startSeconds": 401.8,
+                "text": "The Qur'an offers a brief, direct reminder of this earlier vulnerability. In Surah ad-Duha, the Prophet is reminded of his orphanhood and of shelter provided to him.\n\nThat verse does not name the guardians or give the ages we have just mentioned. We take the reminder from the Qur'an and the family sequence from the biographical account, without treating one as though it contained all the details of the other.\n\nThe reminder looks back. It is not a verse we place in the mouth of the child or present as having been revealed during his childhood.\n\nAt the end of this episode, it returns our attention to care. We began with birth and parents; we encountered a remembered nursing relationship, an account involving children and their carer, and a succession of family responsibility.\n\nHere we stop. Growing up, work, responsibility and trust will be the subject of the next episode. This has been The Noble Life: Birth, Family and Early Childhood.",
+                "sourceIds": [
+                  "q1",
+                  "s1",
+                  "s2",
+                  "s3",
+                  "h1"
+                ]
+              }
+            ],
+            "ur": [
+              {
+                "title": "ایک بچہ اور اس کا خاندان",
+                "startSeconds": 0,
+                "text": "دی نوبل لائف میں خوش آمدید۔ دوسری قسط میں ہم نبی کریم محمد صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ کی ولادت اور ابتدائی بچپن کی طرف آتے ہیں۔\n\nبیت اللہ کا قدیم پس منظر ہم پہلے دیکھ چکے ہیں۔ اب توجہ ایک بچے، اس کے خاندان اور ان لوگوں کی طرف ہے جن کی نگہداشت اس کی زندگی کے ابتدائی برسوں سے تعلق رکھتی ہے۔\n\nروایتی سیرت کے اس خلاصے میں جو انسائیکلوپیڈیا بریٹانیکا پیش کرتا ہے، ولادت کا مقام مکہ، والد کا نام عبداللہ اور والدہ کا نام آمنہ ہے۔ اسی بیان کے مطابق والد کا انتقال ولادت سے پہلے ہوگیا تھا۔ یہ سیرت کے تاریخی بیان سے لیا گیا پس منظر ہے، آگے آنے والی حدیث کے الفاظ نہیں۔\n\nہم خود ولادت کا منظر نہیں بنائیں گے۔ نہ کسی کمرے کی فرضی تفصیل ہوگی، نہ والدین کا گھڑا ہوا مکالمہ، نہ غیر ثابت علامات کی فہرست۔ آغاز خاندان کے رشتوں اور خود نبی کریم کے ایک مختصر ارشاد سے ہوگا۔",
+                "sourceIds": [
+                  "h1"
+                ]
+              },
+              {
+                "title": "پیر کا دن",
+                "startSeconds": 61.75,
+                "text": "حضرت ابو قتادہ انصاری رضی اللہ عنہ بیان کرتے ہیں کہ نبی کریم سے پیر کے روزے کے بارے میں پوچھا گیا۔ جواب میں آپ نے اس دن کو اپنی ولادت اور اپنے اوپر وحی نازل ہونے سے متعلق فرمایا۔\n\nیہ بعد میں پوچھے گئے سوال کا مختصر جواب ہے، مگر ہمارے موضوع کے لیے ایک واضح بات دیتا ہے: روایت میں ولادت کے دن کے طور پر پیر کا ذکر ہے۔ مہینے کی متعین تاریخ یا عیسوی سال نہیں دیا گیا۔\n\nاسی جواب میں وحی کا ذکر آپ کی بعد کی زندگی سے متعلق ہے۔ اس کا مطلب یہ نہیں کہ وحی ولادت کے وقت آئی تھی۔ آغازِ وحی کو ہم اس کے لیے مقرر قسط میں دیکھیں گے۔\n\nفی الحال ولادت کا گھڑا ہوا منظر بنائے بغیر ایک بچے کا ذکر سامنے آتا ہے۔ یہاں سے ماخذ ہمیں ان لوگوں کی طرف لے جاتے ہیں جنہوں نے دودھ پلایا اور دیکھ بھال کی، اور ان رشتوں کی طرف جنہیں آپ نے بہت بعد میں بھی یاد رکھا۔",
+                "sourceIds": [
+                  "s1"
+                ]
+              },
+              {
+                "title": "رضاعت کا یاد رکھا ہوا رشتہ",
+                "startSeconds": 121.75,
+                "text": "ان ناموں میں ایک نام ثویبہ کا ہے۔ حضرت ام حبیبہ رضی اللہ عنہا سے منقول، صحیح بخاری میں محفوظ روایت میں نبی کریم بتاتے ہیں کہ ثویبہ نے آپ کو اور ابو سلمہ کو دودھ پلایا تھا۔\n\nیہ بیان بہت بعد میں خاندان کے رشتوں اور نکاح کے متعلق گفتگو کے دوران آتا ہے۔ اس کا فوری سیاق شیر خوار بچے کی پرورش کا منظر نہیں۔ تاہم اسی گفتگو میں دودھ پلانے سے قائم ہونے والا رشتہ واضح طور پر محفوظ ہے۔\n\nروایت میں ابو سلمہ کے لیے رضاعی بھائی کی نسبت آتی ہے۔ اس کا مطلب یہ نہیں کہ ان کے اور نبی کریم کے حقیقی والدین ایک تھے۔ اس فرق کے ساتھ سمجھ آتا ہے کہ یہاں کس نوعیت کے خاندانی تعلق کا ذکر ہے۔\n\nاس بیان سے ثویبہ کے دودھ پلانے کی پوری مدت یا اس کے آغاز کا دن معلوم نہیں ہوتا۔ ہمارے پاس ان کا نام اور اس رشتے کی نبی کریم کی اپنی تصدیق ہے۔\n\nبعد کی گفتگو سے یوں شیر خوارگی کی طرف ایک مختصر دریچہ کھلتا ہے۔ دیکھ بھال کرنے والی خاتون اس روایت میں بے نام نہیں رہتیں؛ ان کا نام اس تعلق کے ساتھ محفوظ ہے جس کی آپ وضاحت فرماتے ہیں۔",
+                "sourceIds": [
+                  "s2"
+                ]
+              },
+              {
+                "title": "دوسرے بچوں کے درمیان",
+                "startSeconds": 198.6,
+                "text": "حضرت انس بن مالک رضی اللہ عنہ سے منقول، صحیح مسلم میں محفوظ ایک الگ روایت میں نبی کریم دوسرے لڑکوں کے ساتھ کھیل رہے ہیں کہ حضرت جبریل علیہ السلام آتے ہیں۔\n\nروایت سینہ کھولنے، دل نکالنے، اس میں سے ایک لوتھڑا نکالنے، سونے کے برتن میں زمزم کے پانی سے دھونے اور اسے واپس رکھنے کا ذکر کرتی ہے۔ حضرت جبریل کی طرف شیطان کے حصے سے متعلق وضاحت بھی منسوب ہے۔\n\nہم اسے روایت میں بیان ہونے والے غیر معمولی واقعے کے طور پر پیش کرتے ہیں۔ نہ اسے عام طبی عمل میں بدلتے ہیں، نہ فرشتے کے حلیے، آوازوں، آلات یا بچے کے غیر منقول خیالات کی تفصیلات شامل کرتے ہیں۔\n\nبیان کا آغاز کھیلتے بچوں کے درمیان ہوتا ہے۔ پھر دوسرے لڑکے دوڑ کر دیکھ بھال کرنے والی خاتون کے پاس جاتے ہیں۔ وہ خبر دیتے ہیں کہ محمد کو قتل کردیا گیا ہے۔ یہ واقعے کے اندر لڑکوں کی کہی ہوئی بات ہے، واقعے کا انجام نہیں۔\n\nجو لوگ آپ کی طرف آتے ہیں، وہ رنگ بدلا ہوا پاتے ہیں۔ یوں لڑکوں کی گھبرا دینے والی خبر کے بعد روایت ہمیں دوبارہ خود بچے تک پہنچاتی ہے۔",
+                "sourceIds": [
+                  "s3"
+                ]
+              },
+              {
+                "title": "نگہداشت کرنے والی اور راوی کی گواہی",
+                "startSeconds": 272.2,
+                "text": "اس مقام پر حضرت انس کی روایت کے الفاظ ایک اہم فرق واضح کرتے ہیں۔ ماں کا لفظ آتا ہے، پھر بتایا جاتا ہے کہ مراد دودھ پلانے والی خاتون ہے۔ اس لیے اس منظر میں ہم ان کی جگہ حضرت آمنہ کا نام نہیں رکھ دیتے۔\n\nمنتخب روایت اس خاتون کا ذاتی نام نہیں بتاتی۔ واقعے کے وقت کی متعین عمر یا تاریخ بھی نہیں دیتی۔ کسی مشہور قصے میں یہ تفصیلات ہونے سے انہیں خود بخود اس روایت کا حصہ نہیں بنایا جاسکتا۔\n\nپھر حضرت انس اپنا مشاہدہ بیان کرتے ہیں کہ وہ نبی کریم کے سینے پر نشان دیکھا کرتے تھے۔ یہ وہ بات ہے جسے انہوں نے خود دیکھا بتایا ہے۔ اس سے یہ دعویٰ نہیں بناتے کہ پہلے واقعے کے وقت وہ انہی لڑکوں کے ساتھ کھڑے تھے۔\n\nاس طرح دو باتیں اپنے مقام پر رہتی ہیں: پیش آنے والے واقعے کی خبر اور راوی کا بعد کا مشاہدہ۔ یہ فرق برقرار رکھتے ہوئے بھی ہم روایت کے بیان کے ساتھ آگے بڑھ سکتے ہیں۔",
+                "sourceIds": [
+                  "s3"
+                ]
+              },
+              {
+                "title": "جدائی اور دادا کی سرپرستی",
+                "startSeconds": 339.3,
+                "text": "خاندان کی نگہداشت کی ترتیب سمجھنے کے لیے اب روایتی سیرت کے بیان کی طرف لوٹتے ہیں۔ بریٹانیکا کے خلاصے میں حضرت آمنہ کی وفات کے وقت محمد کی عمر چھ برس، اور دادا عبدالمطلب کی وفات کے وقت آٹھ برس بتائی گئی ہے۔\n\nیہ عمریں سیرت کی روایت کے اس خلاصے سے ہیں۔ نہ پیر کے متعلق حدیث انہیں بتاتی ہے، نہ حضرت انس کے بچپن والے واقعے کا بیان۔\n\nاس سوانحی ترتیب میں بچہ دادا کی سرپرستی میں ہے۔ والدہ کی وفات اور پھر دادا کی وفات کے ساتھ ابتدائی زندگی میں ایک سے زیادہ جدائیوں کا ذکر آتا ہے۔\n\nان کے اثر کو ظاہر کرنے کے لیے ہم آخری گفتگو، بچے کے دل کا غیر منقول غم یا کسی سفر کا راستہ شامل نہیں کرتے۔ یہ بھی نہیں بتاتے کہ گھر کے ہر فرد نے لازماً کیسا ردعمل دیا ہوگا۔ یہاں رشتے، وفاتیں اور نگہداشت کی منتقلی ہی دستیاب تاریخی خاکہ ہیں۔\n\nاب اس بیان میں دادا کا ساتھ ختم ہوتا ہے۔ بچے کی ذمہ داری خاندان کے ایک دوسرے فرد کے پاس آتی ہے۔",
+                "sourceIds": [
+                  "h1"
+                ]
+              },
+              {
+                "title": "چچا کی ذمہ داری",
+                "startSeconds": 407.6,
+                "text": "اسی سوانحی خلاصے کے مطابق اس کے بعد نبی کریم کے چچا ابو طالب آپ کی ذمہ داری سنبھالتے ہیں۔\n\nہماری توجہ اس خاندانی نگہداشت پر رہتی ہے۔ ابھی کام، تجارتی سفر یا بعد کے دورِ نبوت کے واقعات کی طرف نہیں جارہے۔ ان موضوعات کے لیے اس سلسلے میں الگ جگہ مقرر ہے۔\n\nاب خاندان کے نام ایک سادہ ترتیب میں سامنے ہیں: عبداللہ اور آمنہ، دادا عبدالمطلب اور چچا ابو طالب۔ ثویبہ کے ذریعے یاد کیا گیا رضاعی رشتہ ایک الگ نوعیت کا تعلق ہے۔ حضرت انس کی روایت میں بے نام نگہداشت کرنے والی خاتون کو بھی خود بخود ثویبہ نہیں کہتے۔\n\nرشتوں کو الگ الگ رکھنا اہم ہے۔ اس طرح بچہ اور اس کے گرد موجود لوگ محتاط، حوالہ جاتی بیان میں اپنی جگہ رہتے ہیں۔ ان کی الگ خبروں کو ملا کر ایک مسلسل بنا ہوا منظر نہیں بن جاتا۔",
+                "sourceIds": [
+                  "h1",
+                  "s2",
+                  "s3"
+                ]
+              },
+              {
+                "title": "سہارے کی بعد کی یاد دہانی",
+                "startSeconds": 466.95,
+                "text": "قرآن پہلے کی اس بے سہارگی کی ایک مختصر اور واضح یاد دلاتا ہے۔ سورۂ ضحیٰ میں نبی کریم کو اپنی یتیمی اور ملنے والے ٹھکانے اور سہارے کی طرف متوجہ کیا گیا ہے۔\n\nیہ آیت سرپرستوں کے نام یا ابھی بیان کردہ عمریں نہیں دیتی۔ قرآنی یاد دہانی قرآن سے لیتے ہیں، اور خاندان کی ترتیب سوانحی بیان سے۔ ایک ماخذ کو دوسرے کی تمام تفصیلات کا حامل نہیں سمجھتے۔\n\nیہ ماضی کی طرف توجہ دلانے والی بات ہے۔ آیت کو بچے کی زبان پر نہیں رکھتے، نہ اسے بچپن ہی میں نازل شدہ کہتے ہیں۔\n\nقسط کے آخر میں یہ یاد ہمیں نگہداشت کی طرف واپس لاتی ہے۔ آغاز ولادت اور والدین سے ہوا؛ پھر رضاعت کا محفوظ رشتہ، بچوں اور ان کی نگہداشت کرنے والی کا واقعہ، اور خاندان میں ذمہ داری کی منتقلی سامنے آئی۔\n\nیہاں ہمارا سفر رکتا ہے۔ بڑے ہونے، کام، ذمہ داری اور اعتماد کا ذکر اگلی قسط کا موضوع ہوگا۔ آپ سن رہے تھے دی نوبل لائف: ولادت، خاندان اور ابتدائی بچپن۔",
+                "sourceIds": [
+                  "q1",
+                  "s1",
+                  "s2",
+                  "s3",
+                  "h1"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "reference": "Sahih Muslim 1162e",
+          "url": "https://sunnah.com/muslim:1162e",
+          "languages": [
+            "en",
+            "ur"
+          ],
+          "note": {
+            "en": "Abu Qatadah al-Ansari’s report of the Prophet’s answer about fasting on Monday, which associates that day with his birth and with revelation being sent to him. The page displayed no separate modern grading badge. It gives no date within a month and no Gregorian year, and it does not place revelation at the birth.",
+            "ur": "حضرت ابو قتادہ انصاری رضی اللہ عنہ کی روایت، جس میں پیر کے روزے کے بارے میں سوال کا جواب ہے اور اسی دن کو ولادت اور وحی کے نزول سے منسوب کیا گیا ہے۔ صفحے پر کوئی الگ جدید درجہ بندی درج نہیں تھی۔ اس میں مہینے کی تاریخ یا عیسوی سن نہیں، اور وحی کو ولادت کے وقت قرار نہیں دیا گیا۔"
+          }
+        },
+        {
+          "id": "s2",
+          "reference": "Sahih al-Bukhari 5101",
+          "url": "https://sunnah.com/bukhari:5101",
+          "languages": [
+            "en",
+            "ur"
+          ],
+          "note": {
+            "en": "Umm Habibah’s report of a later conversation in which the Prophet explains that Thuwaybah had nursed both him and Abu Salamah. The same page appends a separate account attributed to Urwah about a relative’s dream; that appended material is not Prophetic speech and is not used in this episode. No nursing duration or date is established.",
+            "ur": "حضرت ام حبیبہ رضی اللہ عنہا کی روایت، جس میں بعد کی ایک گفتگو میں نبی کریم صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ نے بتایا کہ ثویبہ نے انہیں اور ابو سلمہ دونوں کو دودھ پلایا۔ اسی صفحے پر عروہ سے منسوب ایک الگ بیان بھی ہے؛ وہ نبی کریم کا فرمان نہیں اور اس قسط میں استعمال نہیں کیا گیا۔ رضاعت کی مدت یا تاریخ ثابت نہیں۔"
+          }
+        },
+        {
+          "id": "s3",
+          "reference": "Sahih Muslim 162c",
+          "url": "https://sunnah.com/muslim:162c",
+          "languages": [
+            "en",
+            "ur"
+          ],
+          "note": {
+            "en": "Anas ibn Malik’s transmitted account of a childhood event in which Jibril is named. The report itself calls the woman the nursing carer and gives no personal name, no age and no place. Anas’s own appended observation concerns seeing the mark later; it is not eyewitness presence at the event. Muslim 162a is a different report about the Night Journey and is not used.",
+            "ur": "حضرت انس بن مالک رضی اللہ عنہ سے منقول بچپن کے ایک واقعے کا بیان، جس میں جبریل علیہ السلام کا نام آیا ہے۔ روایت میں خاتون کو رضاعی نگہداشت کرنے والی کہا گیا ہے، کوئی ذاتی نام، عمر یا مقام درج نہیں۔ حضرت انس کی اپنی بعد کی گواہی نشان دیکھنے سے متعلق ہے، واقعے کے وقت موجودگی سے نہیں۔ مسلم 162a ایک الگ روایت ہے جو اسرا و معراج سے متعلق ہے اور یہاں استعمال نہیں ہوئی۔"
+          }
+        },
+        {
+          "id": "q1",
+          "reference": "Qur’an 93:6 (Surah ad-Duha)",
+          "url": "https://quran.com/93/6",
+          "languages": [
+            "en",
+            "ur"
+          ],
+          "note": {
+            "en": "Scripture, not a hadith with a modern authenticity grade. The verse recalls orphanhood and shelter. It is quoted here only as a later reminder of earlier life; it supplies no guardian’s name, age or sequence of deaths, and no translation or tafsir text is reproduced.",
+            "ur": "یہ قرآنی آیت ہے، کوئی حدیث نہیں جس کا جدید درجہ مقرر ہو۔ آیت میں یتیمی اور پناہ کا ذکر ہے۔ یہاں اسے صرف بعد کی یاد دہانی کے طور پر لیا گیا ہے؛ اس سے کسی سرپرست کا نام، عمر یا وفات کی ترتیب ثابت نہیں ہوتی، اور کوئی ترجمہ یا تفسیر نقل نہیں کی گئی۔"
+          }
+        },
+        {
+          "id": "h1",
+          "reference": "Encyclopaedia Britannica — Biography according to the Islamic tradition (historical framing, not a graded hadith)",
+          "url": "https://www.britannica.com/biography/Muhammad/Biography-according-to-the-Islamic-tradition",
+          "languages": [
+            "en",
+            "ur"
+          ],
+          "note": {
+            "en": "Used only for the family framework summarized in new wording: Makkah as birth setting, Abdullah as father, Aminah as mother, the father’s death before the birth, Abd al-Muttalib’s care, and the traditional ages of six and eight for the later losses before Abu Talib assumed responsibility. This is traditional biography as presented by a reference work, not an independently graded narration, and this pass did not trace each detail through a primary sira manuscript.",
+            "ur": "یہ صرف خاندانی ڈھانچے کے لیے استعمال ہوا اور نئے الفاظ میں بیان کیا گیا: مکہ بطور جائے ولادت، والد عبداللہ، والدہ آمنہ، ولادت سے پہلے والد کی وفات، عبدالمطلب کی سرپرستی، اور بعد کی جدائیوں کے لیے چھ اور آٹھ برس کی روایتی عمریں، جن کے بعد ابو طالب نے ذمہ داری سنبھالی۔ یہ ایک حوالہ جاتی کتاب میں پیش کردہ روایتی سیرت ہے، کوئی الگ درجہ بند روایت نہیں، اور اس جائزے میں ہر تفصیل کو کسی بنیادی سیرت کے قلمی نسخے تک نہیں پہنچایا گیا۔"
+          }
+        }
+      ]
     }
   ]
 }
