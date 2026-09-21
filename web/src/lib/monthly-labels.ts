@@ -2,6 +2,7 @@ export const monthlyLabels = {
   en: {
     title: 'Monthly Series',
     name: 'The Noble Life',
+    arabic: 'السِّيرَة النَّبَوِيَّة',
     intro: 'A little longer to listen. A little more space to reflect. A monthly audio journey through the life of Prophet Muhammad ﷺ, in English and Urdu.',
     invitation: 'Discover the monthly journey',
     format: 'Planned format: around 15 minutes per episode, in each language.',
@@ -28,6 +29,7 @@ export const monthlyLabels = {
   ur: {
     title: 'ماہانہ سلسلہ',
     name: 'سیرتِ نبوی ﷺ',
+    arabic: 'السِّيرَة النَّبَوِيَّة',
     intro: 'سننے کے لیے کچھ زیادہ وقت، غور و فکر کے لیے کچھ زیادہ فرصت۔ نبی کریم ﷺ کی حیاتِ مبارکہ پر انگریزی اور اردو میں ایک ماہانہ صوتی سلسلہ۔',
     invitation: 'ماہانہ سلسلہ دیکھیں',
     format: 'مجوزہ ترتیب: ہر زبان میں ہر قسط تقریباً پندرہ منٹ کی ہوگی۔',

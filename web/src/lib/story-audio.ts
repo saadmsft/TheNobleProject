@@ -16,9 +16,12 @@ export const storyEpisodeSchema = z.object({
   text: localizedSchema,
   sourceIds: z.array(z.string().regex(/^[a-z0-9-]+$/)).min(1),
 }).strict().refine((episode) => topicsByShelf[episode.shelf].includes(episode.topic))
+// Long-form series chapters share one identity space and one playback contract.
+// "monthly" is the dated Noble Life series; "topics" is the Thoughts & Topics series.
+export const seriesChapterId = /^story-(?:monthly|topics)-[a-z0-9-]+$/
 export const monthlyChapterSchema = z.object({
   kind: z.literal('story'),
-  id: z.string().regex(/^story-monthly-[a-z0-9-]+$/),
+  id: z.string().regex(seriesChapterId),
   monthlyEpisodeId: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
   shelf: z.literal('life'),
   topic: z.literal('all'),
@@ -71,7 +74,7 @@ export type StoryAudioTrack = z.infer<typeof storyAudioTrackSchema>
 export const monthlyAudioManifestSchema = z.object({
   version: z.literal(1),
   tracks: z.array(storyAudioTrackSchema.safeExtend({
-    entryId: z.string().regex(/^story-monthly-[a-z0-9-]+$/),
+    entryId: z.string().regex(seriesChapterId),
     durationSeconds: z.number().positive().max(monthlyMaxTrackSeconds),
   })),
 }).strict().refine((manifest) => new Set(manifest.tracks.map((track) => `${track.entryId}:${track.language}`)).size === manifest.tracks.length)

@@ -2,6 +2,7 @@ import { useEffect, useState, useSyncExternalStore } from 'react'
 import staticManifest from '../data/audio-manifest.json'
 import storyManifest from '../data/story-audio-manifest.json'
 import monthlyManifest from '../data/monthly-audio-manifest.json'
+import topicsManifest from '../data/topics-audio-manifest.json'
 import { createListeningEngine, listeningKey } from '../lib/listening.ts'
 import type { ListeningController, ListeningStorage } from '../lib/listening.ts'
 import type { Shelf } from '../lib/schema.ts'
@@ -10,6 +11,10 @@ import type { AudioLanguage } from '../lib/audio.ts'
 
 export type { ListeningController } from '../lib/listening.ts'
 export type UseListeningOptions = { manifest?: unknown; storyManifest?: unknown; monthlyManifest?: unknown; storage?: ListeningStorage; initialLanguage?: AudioLanguage }
+
+// Both long-form series share the same recording contract, so the player receives
+// one combined set of series tracks. Their catalogs stay separate.
+const seriesManifest = { version: 1 as const, tracks: [...monthlyManifest.tracks, ...topicsManifest.tracks] }
 
 /** Mount once at the App root. Options are initial dependencies, not reactive preferences.
  * Construction never creates media; ListeningPlayer supplies the sole stable audio ref.
@@ -20,7 +25,7 @@ export function useListening(
   const [engine] = useState(() => createListeningEngine({
     rows, manifest: options.manifest ?? staticManifest,
     storyManifest: options.storyManifest ?? storyManifest,
-    monthlyManifest: options.monthlyManifest ?? monthlyManifest,
+    monthlyManifest: options.monthlyManifest ?? seriesManifest,
     storage: options.storage ?? (() => window.localStorage),
     pageHref: typeof window === 'undefined' ? undefined : window.location.href,
     initialLanguage: options.initialLanguage,

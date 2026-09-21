@@ -1,9 +1,9 @@
 import { useRef, useState } from 'react'
 import { ArrowLeft, ArrowRight, BookOpen, Pause, Play, RotateCcw, RotateCw } from 'lucide-react'
 import { useAmbientMotion } from '../hooks/useAmbientMotion'
-import { monthlyLabels } from '../lib/monthly-labels.ts'
-import { monthlyBook, monthlyEpisodes } from '../lib/monthly-series.ts'
 import type { MonthlyEpisode } from '../lib/monthly-series.ts'
+import { monthlySeries } from '../lib/series.ts'
+import type { SeriesConfig } from '../lib/series.ts'
 import { audiobookLabels } from '../lib/audiobook-labels.ts'
 import { audiobookPosition, audiobookTime } from '../lib/audiobooks.ts'
 import { number } from '../lib/i18n.ts'
@@ -15,24 +15,25 @@ import { MonthlyNewBadge } from './MonthlyNewBadge'
 import { Button } from './ui/button'
 import '../monthly-series.css'
 
-export function MonthlySeriesInvitation({ language, onOpen }: { language: Language; onOpen: () => void }) {
-  const t = monthlyLabels[language]
+export function MonthlySeriesInvitation({ language, onOpen, series = monthlySeries }: { language: Language; onOpen: () => void; series?: SeriesConfig }) {
+  const t = series.labels[language]
   return <section className="monthly-invitation">
     <div><h2>{t.title}</h2><p>{t.intro}</p></div>
     <Button variant="outline" onClick={onOpen}>{t.invitation}<ArrowRight size={16} className="directional" aria-hidden="true" /></Button>
   </section>
 }
 
-export function MonthlySeries({ language, episodeId, listening, paused, readerOpen, onPause, onOpen, onBooks }: {
+export function MonthlySeries({ language, episodeId, listening, paused, readerOpen, onPause, onOpen, onBooks, series = monthlySeries }: {
   language: Language; episodeId?: string; listening: ListeningController
   paused: boolean; readerOpen: boolean; onPause: () => void
-  onOpen: (id?: string) => void; onBooks: () => void
+  onOpen: (id?: string) => void; onBooks: () => void; series?: SeriesConfig
 }) {
   const art = useRef<HTMLDivElement>(null)
   const motion = useAmbientMotion(art, !paused && !readerOpen)
-  const t = monthlyLabels[language]
-  const episode = monthlyEpisodes.find((item) => item.id === episodeId)
-  if (episode) return <MonthlyEpisodePage key={episode.id} episode={episode} language={language} listening={listening} onBack={() => onOpen()} />
+  const t = series.labels[language]
+  const episodes = series.episodes
+  const episode = episodes.find((item) => item.id === episodeId)
+  if (episode) return <MonthlyEpisodePage key={episode.id} episode={episode} language={language} listening={listening} onBack={() => onOpen()} series={series} />
   if (episodeId) return <section className="monthly-series page-width">
     <h1>{t.unavailable}</h1><p>{t.unavailableDetail}</p>
     <Button variant="outline" onClick={() => onOpen()}>{t.back}</Button>
@@ -42,14 +43,14 @@ export function MonthlySeries({ language, episodeId, listening, paused, readerOp
     <div className="monthly-opening">
       <div className="monthly-frontispiece" ref={art} data-running={motion.running} aria-hidden="true">
         <InkSeal paused={!motion.running} />
-        <span lang="ar" dir="rtl">السِّيرَة النَّبَوِيَّة</span>
+        <span lang="ar" dir="rtl">{t.arabic}</span>
         <span>{t.name}</span>
       </div>
       <div className="monthly-opening-copy">
-        <h2>{monthlyEpisodes.length ? t.name : t.firstTitle}</h2>
-        {!monthlyEpisodes.length && <><p className="monthly-status">{t.preparing}</p><p>{t.firstDetail}</p></>}
+        <h2>{episodes.length ? t.name : t.firstTitle}</h2>
+        {!episodes.length && <><p className="monthly-status">{t.preparing}</p><p>{t.firstDetail}</p></>}
         <p>{t.format}</p>
-        {!monthlyEpisodes.length && <p className="monthly-review">{t.review}</p>}
+        {!episodes.length && <p className="monthly-review">{t.review}</p>}
         <button type="button" className="text-link monthly-motion" onClick={onPause} aria-pressed={paused || motion.reduced} disabled={motion.reduced}>
           {paused || motion.reduced ? <Play size={14} aria-hidden="true" /> : <Pause size={14} aria-hidden="true" />}
           {motion.reduced ? t.reduced : paused ? t.resumeMotion : t.paused}
@@ -58,17 +59,17 @@ export function MonthlySeries({ language, episodeId, listening, paused, readerOp
     </div>
     <section className="monthly-archive" aria-labelledby="monthly-archive-title">
       <h2 id="monthly-archive-title">{t.archive}</h2>
-      {monthlyEpisodes.length ? <ol>{monthlyEpisodes.map((item) => {
-        const book = monthlyBook(item, language)
+      {episodes.length ? <ol>{episodes.map((item) => {
+        const book = series.book(item, language)
         return <li key={item.id}>
           <div><time dateTime={item.publishedOn}>{publicationDate(item.publishedOn, language)}</time>
-            <h3>{item.title[language]} <MonthlyNewBadge language={language} episodeId={item.id} /></h3><p>{item.summary[language]}</p>
+            <h3>{item.title[language]} {series.dated && <MonthlyNewBadge language={language} episodeId={item.id} />}</h3><p>{item.summary[language]}</p>
             <span>{item.editionLabels?.[language][language]} · {audiobookTime(book.duration)}</span>
           </div>
           <Button variant="outline" onClick={() => onOpen(item.id)}>{t.open}<ArrowRight size={16} className="directional" aria-hidden="true" /></Button>
         </li>
       })}</ol> : <div className="monthly-empty"><BookOpen size={24} aria-hidden="true" /><h3>{t.empty}</h3><p>{t.emptyDetail}</p><Button variant="outline" onClick={onBooks}>{t.books}<ArrowRight size={16} className="directional" aria-hidden="true" /></Button></div>}
-      {monthlyEpisodes.length > 0 && <Button variant="outline" onClick={onBooks}>{t.books}<ArrowRight size={16} className="directional" aria-hidden="true" /></Button>}
+      {episodes.length > 0 && <Button variant="outline" onClick={onBooks}>{t.books}<ArrowRight size={16} className="directional" aria-hidden="true" /></Button>}
     </section>
   </section>
 }
@@ -77,13 +78,13 @@ function publicationDate(value: string, language: Language) {
   return new Intl.DateTimeFormat(language === 'ur' ? 'ur-PK' : 'en-GB', { dateStyle: 'long', timeZone: 'UTC' }).format(new Date(`${value}T00:00:00Z`))
 }
 
-export function MonthlyEpisodePage({ episode, language, listening, onBack }: {
-  episode: MonthlyEpisode; language: Language; listening: ListeningController; onBack: () => void
+export function MonthlyEpisodePage({ episode, language, listening, onBack, series = monthlySeries }: {
+  episode: MonthlyEpisode; language: Language; listening: ListeningController; onBack: () => void; series?: SeriesConfig
 }) {
   const [chosenLanguage, setChosenLanguage] = useState(language)
   const active = episode.chapters.some((chapter) => chapter.id === listening.currentStory?.id)
   const audioLanguage = active && listening.language !== 'ar' ? listening.language : chosenLanguage
-  const book = monthlyBook(episode, audioLanguage)
+  const book = series.book(episode, audioLanguage)
   const parts = book.chapters.flatMap(({ episode: chapter, duration }) => chapter.sections
     ? chapter.sections[audioLanguage].map((section, index, sections) => ({
       ...section, entryId: chapter.id, duration: (sections[index + 1]?.startSeconds ?? duration) - section.startSeconds,
@@ -93,7 +94,7 @@ export function MonthlyEpisodePage({ episode, language, listening, onBack }: {
   const activePart = parts.findLastIndex((part) => part.entryId === listening.currentStory?.id && listening.currentTime >= part.startSeconds)
   const sources = episode.sources.filter((source) => !source.languages || source.languages.includes(audioLanguage))
   const position = audiobookPosition(book, listening.data, listening)
-  const t = monthlyLabels[language]
+  const t = series.labels[language]
   const a = audiobookLabels[language]
   const continueActive = active && !position.atEnd
   function start(id: string, resume: boolean, time = 0) {
@@ -103,7 +104,7 @@ export function MonthlyEpisodePage({ episode, language, listening, onBack }: {
   }
   return <article className="monthly-series monthly-episode page-width">
     <button type="button" className="text-link" onClick={onBack}><ArrowLeft size={16} className="directional" aria-hidden="true" />{t.back}</button>
-    <header className="monthly-heading"><h1>{episode.title[language]}</h1><MonthlyNewBadge language={language} episodeId={episode.id} /><p>{episode.summary[language]}</p>
+    <header className="monthly-heading"><h1>{episode.title[language]}</h1>{series.dated && <MonthlyNewBadge language={language} episodeId={episode.id} />}<p>{episode.summary[language]}</p>
       <p>{t.released}: <time dateTime={episode.publishedOn}>{publicationDate(episode.publishedOn, language)}</time></p>
       <div className="book-facts"><span>{a.duration}: <bdi>{audiobookTime(book.duration)}</bdi></span><span>{number(parts.length, language)} {a.chapters}</span><span>{episode.editionLabels?.[audioLanguage][language] ?? (audioLanguage === 'ur' ? a.urdu : a.english)}</span></div>
     </header>

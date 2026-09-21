@@ -23,6 +23,15 @@ historical voice reconstructions, or impersonation.**
   shared player. A **NEW / نیا** badge marks the latest release for 30 days from
   its publication date (UTC), then disappears automatically.
 
+- **Thoughts & Topics** (`?view=topics`) is a second bilingual long-form audio
+  series, for single subjects rather than the dated life narrative. Topic 1,
+  **01 · Muraqabah: Before and After Prophethood**, is published complete in both
+  languages — English 21:27 and Urdu 24:26, sixteen sections each — covering the
+  seclusion of the Cave of Hira before revelation and the remembrance, night
+  prayer, reflection and i'tikaf that followed prophethood. It uses the same
+  reviewed Cedar recording profile, player, chapter markers, transcripts and
+  source panel as the Monthly Series, and carries no dated NEW badge.
+
 - **Audiobooks** is a clear homepage and navigation entry, with three original
   ornamental book covers, language-specific durations, chapter counts and
   Start/Continue listening. Book pages show the saved listening position,
@@ -172,6 +181,23 @@ catalogs, approving content/permissions and recordings, running the existing
 checks and deploying a reviewed release. Nothing discovers drafts or publishes
 them based on the calendar. Future model changes require a separately approved
 profile update; publication creates no audio or Azure resources.
+
+## Thoughts & Topics publication
+
+Thoughts & Topics is a second long-form series for single subjects rather than
+the dated life narrative. It reuses the monthly contract exactly: the same
+episode and recording schemas, the same bilingual requirement, the same Cedar
+rendering profile, and the same player, markers, transcripts and source panel.
+Only the catalog and its labels differ, so a topic cannot silently relax a rule
+that the monthly series enforces.
+
+Reviewed releases belong in `web/src/data/topics-series.json` with recordings in
+`web/src/data/topics-audio-manifest.json` and `web/public/audio/`. Chapters use a
+`story-topics-…` identity, keeping them a separate identity space from monthly
+chapters, report records and the short-story collections, while sharing the
+long-form playback contract. Topics are not dated releases and carry no NEW
+badge. `?view=topics&episode=<id>&lang=ur` opens a published topic; unknown
+links show the same explicit unavailable state.
 
 ## Research boundaries
 
